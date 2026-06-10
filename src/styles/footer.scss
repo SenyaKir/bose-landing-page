@@ -4,8 +4,17 @@
   bottom: 0;
   z-index: -1;
   box-sizing: border-box;
-  height: 50vh;
   overflow: hidden;
+  display: none;
+
+  @include on-tablet {
+    display: block;
+    height: 400px;
+  }
+
+  @include on-desktop {
+    height: 460px;
+  }
 
   &__img {
     width: 100%;

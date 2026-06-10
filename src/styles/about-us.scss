@@ -1,8 +1,6 @@
 .about-us {
   @include page-grid;
 
-  background-color: #fcfaef;
-
   &__title {
     grid-column: 1 / -1;
 
