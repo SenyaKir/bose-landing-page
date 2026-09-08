@@ -14,7 +14,6 @@ A responsive landing page for the BOSE brand built with semantic HTML and SCSS.
 
 - HTML5
 - SCSS
-- JavaScript
 
 ## Getting Started
 
